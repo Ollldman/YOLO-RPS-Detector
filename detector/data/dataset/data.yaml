@@ -1,0 +1,14 @@
+
+train: ../train/images
+valid: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['Rock', 'Paper','Scissors']
+
+roboflow:
+  workspace: yakup-fqvxb
+  project: rock-paper-scissors-giciv
+  version: 1
+  license: Public Domain
+  url: https://universe.roboflow.com/yakup-fqvxb/rock-paper-scissors-giciv/dataset/1
