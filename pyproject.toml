@@ -1,0 +1,25 @@
+[project]
+name = "detector"
+version = "0.1.0"
+description = "Practice to create a real-time hand gesture detection for the classic Rock-Paper-Scissors game using a fine-tuned YOLO model."
+authors = [
+    {name = "Ollldman",email = "dodrolla@gmail.com"}
+]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.13, <3.14"
+packages = [
+    { include = "detector" },
+]
+dependencies = [
+    "torch (>=2.9.1,<3.0.0)",
+    "pillow (>=12.1.0,<13.0.0)",
+    "ultralytics (>=8.3.250,<9.0.0)",
+    "matplotlib (>=3.10.8,<4.0.0)",
+    "numpy (>=2.4.0,<3.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
